@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Crie sua conta</legend>
+
+            <label>Nome:</label><br>
+            <input type="text" placeholder="Seu nome completo"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" required placeholder="seuemail@dominio.com"><br><br>
+
+            <label>Senha:</label><br>
+            <input type="password" required minlength="8" placeholder="Mínimo 8 caracteres"><br><br>
+
+            <strong>Gênero:</strong><br>
+
+            <input type="radio" value="masculino" name="genero"> Masculino<br>
+
+            <input type="radio" value="feminino" name="genero"> Feminino<br>
+
+            <input type="radio" value="outro" name="genero"> Outro<br><br>
+
+            <textarea rows="4" placeholder="Fale um pouco sobre você..."></textarea><br><br>
+
+            <input type="checkbox" required> Eu li e aceito os termos de serviço<br><br>
+        </fieldset>
+        <button type="submit">Cadastrar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+
+</html>
