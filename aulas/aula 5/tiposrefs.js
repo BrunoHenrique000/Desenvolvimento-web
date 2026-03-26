@@ -10,39 +10,44 @@ const aluno = {
     }
 }
 
-console.log(aluno.endereco)
+const {nome, idade} = aluno
 
-//arrays
-const listaFrutas = ["Uva", "Laranja"]
+console.log(nome)
+console.log(idade)
 
-for (let index = 0; index < listaFrutas.length; index++) {
-    const element = listaFrutas[index];
-    console.log("Fruta " + index, element)
-}
+// console.log(aluno.endereco)
 
-// console.log(listaFrutas);
+// //arrays
+// const listaFrutas = ["Uva", "Laranja"]
 
-//funções
-const NOME = function printNome() {
-    console.log("Bruno")
-}
+// for (let index = 0; index < listaFrutas.length; index++) {
+//     const element = listaFrutas[index];
+//     console.log("Fruta " + index, element)
+// }
 
-NOME();
+// // console.log(listaFrutas);
 
-function soma(val1, val2) {
-    return val1 + val2;
-}
+// //funções
+// const NOME = function printNome() {
+//     console.log("Bruno")
+// }
 
-console.log(soma(2, 5))
+// NOME();
 
-function subtração(val1, val2) {
-    return val1 - val2;
-}
+// function soma(val1, val2) {
+//     return val1 + val2;
+// }
 
-console.log
+// console.log(soma(2, 5))
 
-function calculo(val1, val2) {
-    return console.log(val1, val2)
-}
+// function subtração(val1, val2) {
+//     return val1 - val2;
+// }
 
-console.log(calculo(subtração(2, 4), (soma)(8, 9)))
+// console.log
+
+// function calculo(val1, val2) {
+//     return console.log(val1, val2)
+// }
+
+// console.log(calculo(subtração(2, 4), (soma)(8, 9)))
