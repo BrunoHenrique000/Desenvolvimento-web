@@ -1,0 +1,91 @@
+#solution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 4rem;
+  gap: 3.5rem;
+  width: 100%;
+}
+
+#solution header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+  max-width: 33rem;
+  margin-inline: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#solution p {
+  color: var(--second-text-color);
+}
+
+#solution strong {
+  color: var(--primary-color);
+  font-weight: var(--fw-bold);
+}
+
+#solution .even-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20.25rem, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 68rem;
+  margin-inline: auto;
+  justify-content: center;
+}
+
+.card {
+  background: var(--light-gray);
+  box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+  max-width: 20.25rem;
+  min-height: 26rem;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+  margin-inline: auto;
+
+  span {
+    display: flex;
+    min-height: 8rem;
+    align-items: end;
+  }
+
+  div {
+    height: 100%;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+}
+
+.card h3 {
+  font-size: 1.5rem;
+}
+
+.card p {
+  padding-inline: 1.5rem;
+  color: var(--second-text-color);
+}
+
+.card hr {
+  height: 6px;
+  background: var(--secondary-color);
+  width: 100%;
+  border: none;
+}
+
+@media (width >= 1280px) {
+  #solution {
+    padding-block: 7.5rem;
+  }
+
+  #solution header {
+    max-width: 45rem;
+  }
+}
