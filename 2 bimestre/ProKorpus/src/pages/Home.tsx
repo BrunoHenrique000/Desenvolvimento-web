@@ -8,7 +8,9 @@ import TestimonialCard from "../components/TestimonialCard";
 import chefhat from "../assets/dumbbell.svg";
 import moneySign from "../assets/heart-pulse.svg";
 import noFood from "../assets/volleyball.svg";
-import ProfileImageOne from "../assets/profileImageOne.png";
+import aluno1 from "../assets/aluno1.png";
+import aluno2 from "../assets/aluno2.png";
+import aluno3 from "../assets/aluno3.png";
 import HeroBg from "../assets/heroBg.jpg";
 import Check from "../assets/check.png";
 import { ToastContainer, toast } from "react-toastify";
@@ -251,45 +253,45 @@ export default function Home() {
           {/* Bloco Primário */}
           <div className="carousel-track">
             <TestimonialCard
-              profileImage={ProfileImageOne}
+              profileImage={aluno1}
               name="Carlos Silva"
               role="Aluno há 1 ano"
               text="Excelente estrutura! Consegui me recuperar 100% de uma lesão no joelho com a ajuda dos instrutores da reabilitação."
               stars={5}
             />
             <TestimonialCard
-              profileImage={ProfileImageOne}
+              profileImage={aluno2}
               name="Mariana Costa"
               role="Atleta de Vôlei de Areia"
               text="A quadra de vôlei de areia é sensacional. O ambiente da academia é super familiar e os horários são perfeitos."
               stars={4}
             />
             <TestimonialCard
-              profileImage={ProfileImageOne}
+              profileImage={aluno3}
               name="Fernando Souza"
               role="Aluno do Funcional"
-              text="Melhor custo-benefício do bairro. Professores atenciosos que realmente montam o treino pensando no nosso objetivo."
+              text="Melhor custo-benefício da região. Professores atenciosos que realmente montam o treino pensando no nosso objetivo."
               stars={5}
             />
           </div>
-          {/* Bloco Primário */}
+          {/* Bloco Secundário */}
           <div className="carousel-track" aria-hidden="true">
             <TestimonialCard
-              profileImage={ProfileImageOne}
+              profileImage={aluno1}
               name="Carlos Silva"
               role="Aluno há 1 ano"
               text="Excelente estrutura! Consegui me recuperar 100% de uma lesão no joelho com a ajuda dos instruidores da reabilitação."
               stars={5}
             />
             <TestimonialCard
-              profileImage={ProfileImageOne}
+              profileImage={aluno2}
               name="Mariana Costa"
               role="Atleta de Vôlei de Areia"
               text="A quadra de vôlei de areia é sensacional. O ambiente da academia é super familiar e os horários são perfeitos."
               stars={4}
             />
             <TestimonialCard
-              profileImage={ProfileImageOne}
+              profileImage={aluno3}
               name="Fernando Souza"
               role="Aluno do Funcional"
               text="Melhor custo-benefício do bairro. Professores atenciosos que realmente montam o treino pensando no nosso objetivo."
