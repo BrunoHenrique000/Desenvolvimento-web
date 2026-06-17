@@ -4,7 +4,7 @@ import Menu from "../assets/menu.svg";
 import Close from "../assets/close.svg";
 import Button from "../components/button";
 import Card from "../components/card";
-import TestimonialCard from "../components/TestimonialCard";
+import TestimonialCard from "../components/testimonialCard";
 import chefhat from "../assets/dumbbell.svg";
 import moneySign from "../assets/heart-pulse.svg";
 import noFood from "../assets/volleyball.svg";
